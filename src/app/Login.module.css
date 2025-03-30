@@ -1,3 +1,66 @@
+.loginContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px; /* Added padding for better responsiveness */
+}
+
+.loginForm {
+  background: rgba(195, 207, 226, 0.697);
+  padding: 40px; /* Increased padding */
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  width: 400%; /* Expanded width */
+  max-width: 600px; /* Prevents it from getting too wide on large screens */
+  text-align: center;
+}
+
+.loginForm h2 {
+  margin-bottom: 25px;
+  color: #002247;
+  font-size: 24px;
+}
+
+.formGroup {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.formGroup label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: #333;
+}
+
+.formGroup input {
+  width: 100%;
+  padding: 12px; /* Increased padding for better usability */
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.loginButton {
+  width: 100%;
+  padding: 12px;
+  background-color: #002247;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.loginButton:hover {
+  background-color: #003977c5;
+}
+
+
+
+
 .page {
   display: flex;
   justify-content: center;
@@ -47,7 +110,9 @@
   display: flex;
   justify-content: center; /* Align to the center */
   padding: 10px 20px; /* Add padding */
+  height: 38px;
 }
+
 
 .navbar ul {
   list-style: none;
@@ -123,3 +188,9 @@
     color: white;
   }
 }
+
+.navbar marquee{
+  font-style: italic;
+}
+
+
