@@ -507,3 +507,11 @@ export default function EditStudent() {
     </div>
   );
 }
+// ✅ Wrapping Inside Suspense Boundary to Fix Deployment Issue
+export default function EditStudent() {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <EditStudentContent />
+    </Suspense>
+  );
+}
