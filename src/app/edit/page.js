@@ -310,7 +310,7 @@
 "use client";
 import Link from "next/link";
 import { useSearchParams, useRouter } from "next/navigation";
-import { useEffect, useState } from "react";
+import { useEffect, useState, suspense } from "react";
 import { db } from "../firebaseConfig";
 import { ref, get, update, push } from "firebase/database";
 import styles from "../student/Student.module.css";
