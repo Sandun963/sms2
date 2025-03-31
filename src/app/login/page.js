@@ -58,6 +58,7 @@ import { useState } from "react";
 import { signInWithEmailAndPassword } from "firebase/auth";
 import { auth } from "../firebaseConfig"; // Import Firebase auth
 import styles from "../Login.module.css";
+import styles from "../globals.css";
 
 export default function Login({ setIsLoggedIn }) {
   const [email, setEmail] = useState("");

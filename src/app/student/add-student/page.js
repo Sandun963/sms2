@@ -6,6 +6,8 @@ import styles from "../Student.module.css";
 import Link from "next/link";
 import { getAuth } from "firebase/auth";
 import Logout from "../../components/Logout";
+import "../globals.css"; // ✅ Correct way to import global CSS
+
 
 
 export default function StudentAdd() {

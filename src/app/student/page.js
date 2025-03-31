@@ -291,6 +291,8 @@ import { ref, get, remove, push } from "firebase/database"; // Firebase function
 import styles from "./Student.module.css";
 import { getAuth } from "firebase/auth";
 import Logout from "../components/Logout";
+import "./globals.css"; // ✅ Correct way to import global CSS
+
 
 export default function Student() {
   const [isStudentVisible, setIsStudentVisible] = useState(false);

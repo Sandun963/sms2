@@ -29,7 +29,7 @@
 
 
 import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
+import "./student/globals.css";
 import Logout from "./components/Logout"; // Import Logout component
 
 const geistSans = Geist({

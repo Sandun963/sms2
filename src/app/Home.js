@@ -1,5 +1,6 @@
 import Link from "next/link";
 import styles from "./Home.module.css";
+import styles from "../globals.css";
 
 export default function Home() {
   return (
